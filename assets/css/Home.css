@@ -1,0 +1,77 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.Contact_info{
+    position: relative;
+    display: flex;
+    border:1px solid red;
+    justify-content: space-between;
+    width:25vw;
+    color:white;
+    margin-top: 5px;
+    background-color: rgb(4, 83, 197);
+    transition: background 0.2s ease-out;
+}
+.Contact_info:hover{
+    background-color: grey;
+}
+#name{
+    margin-left: 5px;
+}
+#phone{
+    margin-right: 5px;
+}
+
+.delete{
+    position: absolute;
+    top:0;
+    right: -3.5vw;
+    height: 51px;
+    cursor: pointer;
+}
+.delete input{
+    background-color: grey;
+    color:white;
+    height: inherit;
+    transition: background 0.2s ease-in;
+}
+.delete input:hover{
+    background-color: rgb(4, 83, 197);
+    color:white;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    width:25vw;
+    margin-left: 2.6rem;
+}
+form input[type="submit"]{
+    background-color: grey;
+    color:white;
+    padding:4px;
+    cursor: pointer;
+}
+
+.length{
+    width:12vw;
+    /* background-color: inherit; */
+    /* outline-color: white; */
+    border-color: white;
+    margin-left: 1px;
+}
+
+.length:focus{
+    background-color: rgb(255, 255, 255);
+    outline-color: rgb(4, 83, 197);
+    
+}
+
