@@ -3,10 +3,15 @@ Basic Contact app using Mongodb and Express js
 
 
   How to use:
-    1. Clone the Repository 
+  
+    1. Clone the Repository
+    
     2. Index.js in the Root Directory is our Entry file
+    
     3. use 'nodemon index.js' to run the Express server
+    
     4. MongoDb is been used for storing and Retrieving Data from DB
+    
     5. Used Font Awesom Library for Icons part . Do check it out the Website , it has some cool Icons available for free . 
   
   
